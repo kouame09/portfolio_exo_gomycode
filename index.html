@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+</head>
+<body>
+    <header>
+        <!--Barre de navigation-->
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a_propos">À Propos</a></li>
+                <li><a href="#travail">Travail</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+         <!--Fin de la barre de navigation-->
+    </header>
+
+     <!--La section Hero-->
+    <section id="accueil">
+        <h1>Bienvenue sur mon portfolio</h1>
+        <p>Je suis un développeur web passionné par la création de sites web incroyables.</p>
+    </section>
+    <!--Fin de la section Hero-->
+
+    <!--La section A Propos-->
+    <section id="a_propos">
+        <h2>À Propos de Moi</h2>
+        <p>Je suis un développeur web avec une passion pour la création de sites web modernes et fonctionnels.</p>
+    </section>
+    <!--Fin de la section A Propos-->
+
+    <!--La section réalisation-->
+    <section id="travail">
+        <h2>Mon Travail</h2>
+        <ul>
+            <li><a href="projet1.html">Projet 1</a></li>
+            <li><a href="projet2.html">Projet 2</a></li>
+            <li><a href="projet3.html">Projet 3</a></li>
+        </ul>
+    </section>
+    <!--Fin de la section réalisation-->
+
+    <!--La section CV-->
+    <section id="cv">
+        <h2>Mon CV</h2>
+        <p>Téléchargez mon CV :</p>
+        <a href="#" download>CV.pdf</a>
+    </section>
+     <!--Fin de la section CV-->
+
+    <!--La section contact-->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="envoyer_message.php" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+     <!--Fin de la section contact-->
+
+    <!--La section footer-->
+    <footer>
+        <p>&copy; 2023 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+    <!--Fin de la section footer-->
+</body>
+</html>
