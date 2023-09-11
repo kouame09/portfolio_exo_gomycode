@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./images/icons/favicon.png" type="image/x-icon">
     <title>Mon Portfolio</title>
 </head>
 <body>
     <header>
+
+        <!--Logo-->
+        <div class="logo">
+            <img src="./images/logo/logo.png" alt="logo">
+        </div>
+
         <!--Barre de navigation-->
         <nav>
             <ul>
                 <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#a_propos">À Propos</a></li>
-                <li><a href="#travail">Travail</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#projects">Travail</a></li>
                 <li><a href="#cv">CV</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -21,21 +29,28 @@
     </header>
 
      <!--La section Hero-->
-    <section id="accueil">
-        <h1>Bienvenue sur mon portfolio</h1>
-        <p>Je suis un développeur web passionné par la création de sites web incroyables.</p>
+    <section id="hero">
+       <div>
+            <h3>Je m'appelle</h3>
+            <h1>Prince Kouamé</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Vero quae saepe soluta numquam iste veniam tempore repellendus dolores,<br> nisi deserunt.</p>
+        </div>
     </section>
+        
     <!--Fin de la section Hero-->
 
     <!--La section A Propos-->
-    <section id="a_propos">
+    <section id="about">
         <h2>À Propos de Moi</h2>
         <p>Je suis un développeur web avec une passion pour la création de sites web modernes et fonctionnels.</p>
+        <div class="video">
+            <video src="#"></video>
+        </div>
     </section>
     <!--Fin de la section A Propos-->
 
     <!--La section réalisation-->
-    <section id="travail">
+    <section id="projects">
         <h2>Mon Travail</h2>
         <ul>
             <li><a href="projet1.html">Projet 1</a></li>
@@ -54,20 +69,27 @@
      <!--Fin de la section CV-->
 
     <!--La section contact-->
-    <section id="contact">
-        <h2>Contactez-moi</h2>
-        <form>
-            <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" required><br>
-
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required><br>
-
-            <label for="message">Message :</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br>
-
-            <input type="submit" value="Envoyer">
-        </form>
+    <section class="container_contact">
+        <section>
+            <div class="map">
+                <img src="" alt="">
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contactez-moi</h2>
+            <form>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required><br>
+    
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required><br>
+    
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+    
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
     </section>
      <!--Fin de la section contact-->
 
